@@ -19,3 +19,13 @@ Here are the core codes and their functionality. Note that the required medical 
 - meta_train.py: example tuning script
 
 Please contact <zhengy@princeton.edu> if you have any questions.
+
+If you find our implementation helps, please consider citing this:)
+```
+@article{yu2023deep,
+  title={Deep Reinforcement Learning for Cost-Effective Medical Diagnosis},
+  author={Yu, Zheng and Li, Yikuan and Kim, Joseph and Huang, Kaixuan and Luo, Yuan and Wang, Mengdi},
+  journal={arXiv preprint arXiv:2302.10261},
+  year={2023}
+}
+```
