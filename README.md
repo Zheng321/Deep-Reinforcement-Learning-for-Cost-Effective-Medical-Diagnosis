@@ -14,6 +14,8 @@ Here are the core codes and their functionality. Note that the required medical 
 - data_loader.py: helper to construct random observation pattern for training (C) module 
 - flow_models.py, nflow.py, imputation.py: (E) module, where a flow-based deep imputer named [EMFlow](https://github.com/guipenaufv/EMFlow) is used.
 - rl.py: (S) module
-- util.py: some helper functions
+- util.py, my_result_writer.py: some helper functions
 - train.py: example training script
 - meta_train.py: example tuning script
+
+Please contact <zhengy@princeton.edu> if you have any questions.
