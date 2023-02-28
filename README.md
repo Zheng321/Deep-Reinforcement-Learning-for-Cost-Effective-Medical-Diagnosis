@@ -1,5 +1,5 @@
 # Deep-Reinforcement-Learning-for-Cost-Effective-Medical-Diagnosis
-This repo contains the core codes for the paper "[Deep Reinforcement Learning for Cost-Effective Medical Diagnosis](https://openreview.net/forum?id=0WVNuEnqVu)". Due to the data privacy policy, we are not allowed to share the datasets. Please reach out to us for more details on data format. Therefore, we only share the core codes of our framework. 
+This repo contains the core codes for the paper "[Deep Reinforcement Learning for Cost-Effective Medical Diagnosis](https://openreview.net/forum?id=0WVNuEnqVu)". Due to the data privacy policy, we are not allowed to share the datasets. For further information on the data format, please see [here](https://github.com/Zheng321/Deep-Reinforcement-Learning-for-Cost-Effective-Medical-Diagnosis/blob/e7365e563b32e812d5a38c9a907fa682c4972a92/blood_panel_data_preprocessing.py#L6). If you have any questions or concerns, please don't hesitate to get in touch with us.
 
 The end-to-end semi-model-based RL training framework illustrated below contains three core modules: Posterior State Encoder via Imputer (E), Classifier (C), and Panel/Predictor Selector (S). The final state embedding of RL contains the observation 0-1 indicator, embedding output by (E) and (C).
 <p align="center">
@@ -18,7 +18,7 @@ Here are the core codes and their functionality. Note that the required medical 
 - train.py: example training script
 - meta_train.py: example tuning script
 
-Please contact <zhengy@princeton.edu> if you have any questions.
+Please contact <zhengy@princeton.edu> or leave an issue if you have any questions.
 
 If you find our implementation helps, please consider citing this:)
 ```
