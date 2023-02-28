@@ -9,7 +9,11 @@ The end-to-end semi-model-based RL training framework illustrated below contains
 Here are the core codes and their functionality. Note that the required medical datasets are missing due to privacy policies.
 
 - baselines.ipynb: multiple basic baseline algorithms reported in the paper.
-- blood_panel_data_preprocessing.py: our data preprocessing script, needs to be replaced by your own datasets.
+- blood_panel_data_preprocessing.py: example data preprocessing script, needs to be replaced by your own datasets.
 - classifier.py: (C) module
-- data_loader.py: helper to construct random observation pattern for training an intial (C) module, it is not used in end-to-end approach. 
+- data_loader.py: helper to construct random observation pattern for training (C) module 
 - flow_models.py, nflow.py, imputation.py: (E) module, where a flow-based deep imputer named [EMFlow](https://github.com/guipenaufv/EMFlow) is used.
+- rl.py: (S) module
+- util.py: some helper functions
+- train.py: example training script
+- meta_train.py: example tuning script
